@@ -16,4 +16,4 @@ There are two options to setting up the development environnment. The first requ
 * [JVM](https://java.com/en/download/) (Eclipse and Intellij have step by step instructions for installing the Java Virtual Machine)
 * [Maven](https://maven.apache.org/install.html)
 
-Follow to the [wiki](https://github.com/aaronbretz/brazos-open-lab/wiki) for step by step insructions.
+Follow the [wiki](https://github.com/aaronbretz/brazos-open-lab/wiki) for step by step insructions.
