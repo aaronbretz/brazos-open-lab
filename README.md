@@ -1,4 +1,4 @@
-# Driven 2017 Brazos Open Lab
+# Driven 2017 BrazosOpen Lab
 
 ## Destination
 By the end of this lab, you will have created and deployed a locally hosted dashboard to display a list of upcoming events for a band or musician. 
