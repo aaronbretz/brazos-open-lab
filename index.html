@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en" ng-app="BrazosOpen">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="css/brazos-all-min.css" rel="stylesheet">
+    <script src="js/brazosopen-min.js"></script>
+    <script src="https://use.fontawesome.com/ec7795295f.js"></script>
+</head>
+<body ng-controller="bzBrokerController" >
+
+<bz-broker-def instance-id="0" task-id="0" >
+  <bz-service-call-boundary-event output="events" script="getEvents.groovy" name="getEvents" execute-on-call="true"></bz-service-call-boundary-event>
+</bz-broker-def>
+
+<script type="text/ng-template" id="bz-template-content.html">
+    <div class='col-md-5 col-sm-5'>
+        <div class="milestone">{{title}}</div>
+        <div class="activity">{{subtitle}}</div>
+    </div>
+    <div class="col-md-6 col-sm-6">
+        <div class="client-logo"></div>
+        <div class="client-bg-layer"></div>
+    </div>
+</script>
+
+<bz-template bz-title="BrazosOpen"
+             bz-subtitle="Driven 2017 Lab"
+             override-content="bz-template-content.html"
+             alerts="alerts" close-alert='closeAlert'>
+             <bz-row>
+    </bz-row>
+</bz-template>
+</body>
+</html>
