@@ -1,7 +1,7 @@
 version: "2"
 services:
   web:
-    image: abretz47/driven2017:0.6
+    image: abretz47/driven2017:latest
     ports:
       - "8080:8080"
     volumes:
